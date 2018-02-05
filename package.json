@@ -685,7 +685,7 @@
     "semver": {
       "integrity": "sha1-LlpOcrqwNHLMl/cnU7RQiRLvVUA=",
       "resolved": "https://registry.npmjs.org/semver/-/semver-1.1.4.tgz",
-      "version": "1.1.4"
+      "version": "5.4.1"
     },
     "send": {
       "integrity": "sha512-ElCLJdJIKPk6ux/Hocwhk7NFHpI3pVm/IZOYWqUmoxcgeyM+MpxHHKhb8QmlJDX1pU6WrgaHBkVNm73Sv7uc2A==",
