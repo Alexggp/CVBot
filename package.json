@@ -340,6 +340,7 @@
       "resolved": "https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz",
       "version": "0.1.7"
     },
+    "google-translate-api": "^2.3.0",
     "har-schema": {
       "integrity": "sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=",
       "resolved": "https://registry.npmjs.org/har-schema/-/har-schema-2.0.0.tgz",
