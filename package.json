@@ -825,6 +825,7 @@
       "resolved": "https://registry.npmjs.org/verror/-/verror-1.10.0.tgz",
       "version": "1.10.0"
     },
+    "watson-developer-cloud": "^3.0.6",
     "x-xss-protection": {
       "integrity": "sha1-iYr7k4abJGYc+cUvnujbjtB2Tdk=",
       "resolved": "https://registry.npmjs.org/x-xss-protection/-/x-xss-protection-1.0.0.tgz",

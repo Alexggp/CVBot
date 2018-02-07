@@ -6,7 +6,7 @@ module.exports = {
     https: process.env.PORT||3443
   },
   rest:{
-    path:'/ws3/',
+    path:'/api/',
     max_callers: 1000
   },
   logger: {
@@ -55,5 +55,13 @@ module.exports = {
   },
   collections:{
    languages:'languages'
-  }
+  },
+    toneAnalyzer: {
+        username: '',
+        password: '',
+        version_date: '2017-09-21',
+        headers: {
+            'X-Watson-Learning-Opt-Out': 'true'
+        }
+    }
 };
