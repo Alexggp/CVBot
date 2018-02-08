@@ -32,3 +32,6 @@ node_modules
 tar
 #public assets
 public
+
+package-lock.json
+config/config.js
