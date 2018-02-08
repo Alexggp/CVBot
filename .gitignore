@@ -35,3 +35,5 @@ public
 
 package-lock.json
 config/config.js
+
+.DS_Store
