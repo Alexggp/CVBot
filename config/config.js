@@ -63,5 +63,11 @@ module.exports = {
         headers: {
             'X-Watson-Learning-Opt-Out': 'true'
         }
-    }
+    },
+    conversation: {
+        username: '',
+        password: '',
+        version_date: '2017-09-21'
+    },
+    conversationWorkspace: ''
 };
