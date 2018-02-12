@@ -1,0 +1,43 @@
+
+body{
+    width: 100vw;
+    background-color: lightblue;
+}
+
+#display{
+    height: 85vh;
+    overflow: auto;
+}
+#input{
+    height: 10vh;
+}
+.input-text{
+    margin-left:5vw;
+    height:100%;
+    padding:1em;
+}
+#send{
+    margin-left:2.5vw;
+    height:100%;
+    padding:0;
+    padding-top: 1em;
+    background-color: lightgray;
+    text-align: center;
+}
+.message{
+    max-width: 100vw;
+    padding: 2em;
+    margin: 2em;
+    background-color: lightgray;
+}
+
+.input{
+    color: blue;
+    text-align: left;
+    padding-right: 15vw;
+}
+.output{
+    color: red;
+    text-align: right;
+    padding-left:15vw;
+}
