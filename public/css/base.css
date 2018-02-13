@@ -1,8 +1,10 @@
 
 body{
     width: 100vw;
-    background-color: cadetblue;
+    background-color: lightblue;
+    /*
     background-image: url("../assets/bk.jpg");
+    */
     background-size: cover;
     font-family: Arial;
 }
@@ -15,26 +17,32 @@ body{
     position: relative;
 }
 #toneDiv{
-    width:15vh;
-    height:15vh;
-    position:fixed;
-    bottom: 15.5vh;
-    right:5vw;
+    background-color: lightyellow;
+    width: 10vh;
+    height: 10vh;
+    position: fixed;
+    top: 5vh;
+    border-radius: 100%;
+    left: 5vw;
 }
 #toneDiv img{
     width:100%;
 }
 #input{
     height: 10vh;
+
 }
 .input-text{
+    width: 60vw;
     margin-left:5vw;
     height:100%;
     padding:1em;
     border-radius: 10px;
     border: 2px solid cadetblue;
+    display: inline-block;
 }
 #send{
+    display: inline-block;
     margin-left: 2.5vw;
     height: 100%;
     padding: 0;

@@ -20,8 +20,10 @@
    <body ng-controller="ChatController as Ctrl">
         <div id="display">
           <div id="toneDiv">
-              <img src="assets/smile.png" ng-show="currentTone=='neutral'">
+              <img src="assets/smile.png" ng-hide="currentTone=='sadness' || currentTone=='joy' || currentTone=='anger'">
               <img src="assets/disapointed.png" ng-show="currentTone=='anger'">
+              <img src="assets/joy.png" ng-show="currentTone=='joy'">
+              <img src="assets/sad.png" ng-show="currentTone=='sadness'">
           </div>
           <div class="message"  ng-class="{'input': message.input , 'output': !message.input } " ng-repeat="message in messageList">
                 {{message.text}}
