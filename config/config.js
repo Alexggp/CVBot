@@ -65,9 +65,9 @@ module.exports = {
         }
     },
     conversation: {
-        username: 'c9bcbd9b-f1f4-4760-a02f-dd9f5457557d',
-        password: 'bkBX2qsWgbtM',
+        username: 'f4b07100-5df2-43e4-8dbe-5a1222119ae5',
+        password: '0SBsilOLOmVd',
         version_date: '2017-09-21'
     },
-    conversationWorkspace: 'ddd7a7ad-266f-43ce-9111-38fb84a37f92'
+    conversationWorkspace: 'ec1abc52-7eaf-4d4a-aeb0-b64f07292189'
 };

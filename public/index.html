@@ -18,14 +18,18 @@
 	  
    </head>
    <body ng-controller="ChatController as Ctrl">
-        <div id="display">{{currentTone}}
+        <div id="display">
+          <div id="toneDiv">
+              <img src="assets/smile.png" ng-show="currentTone=='neutral'">
+              <img src="assets/disapointed.png" ng-show="currentTone=='anger'">
+          </div>
           <div class="message"  ng-class="{'input': message.input , 'output': !message.input } " ng-repeat="message in messageList">
                 {{message.text}}
           </div>
         </div>
         <div id="input">
             <input class="input-text col-xs-9 col-xs-offset-1" type="text" placeholder="Escribe aquí" ng-model="currentMessage"></inpu>
-            <div id="send" class="col-xs-1 col-xs-offset-1" ng-click="sendMessage()">ENVIAR</div>
+            <div id="send" class="col-xs-1 col-xs-offset-1" ng-click="sendMessage()"></div>
         </div>
    </body>
    

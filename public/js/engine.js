@@ -19,7 +19,7 @@
 
                         setTimeout(function(){
                             $("#display").scrollTop($("#display").height()*100);
-                        },100);
+                        });
                         var data = {
                             message: $scope.currentMessage,
                             context: currentContext
@@ -28,12 +28,17 @@
                         $http.post('/api/conversation', data)
                             .success(function (data) {
                                 console.log(data)
-                                currentContext = JSON.stringify(data.context);
-                                $scope.messageList.push({
-                                    text: data.conversation.output.text[0],
-                                    input: true,
-                                    context: data.conversation.context
-                                });
+                                currentContext = JSON.stringify(data.conversation.context);
+                                for (var i=0;i<data.conversation.output.text.length;i++){
+                                    $scope.messageList.push({
+                                        text: data.conversation.output.text[i],
+                                        input: true,
+                                        context: data.conversation.context
+                                    });
+                                    setTimeout(function(){
+                                        $("#display").scrollTop($("#display").height()*100);
+                                    });
+                                }
                                 if (data.tone.document_tone && data.tone.document_tone.tones.length){
                                     var tone = _.max( data.tone.document_tone.tones, function(mood){ return mood.score; });
                                     $scope.currentTone = tone.tone_id;
@@ -49,7 +54,7 @@
                             .error(function (data) {
                                 console.log(data)
                             });
-                    }s
+                    }
 
             }
             $scope.sendMessage(true)
