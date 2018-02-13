@@ -57,8 +57,8 @@ module.exports = {
    languages:'languages'
   },
     toneAnalyzer: {
-        username: 'fafc4087-783c-407b-8a98-156ef93853d5',
-        password: 'HaPuEcp0EcJz',
+        username: 'f94fce1a-2415-4eab-a67e-b74b3fb12e3e',
+        password: 'tFWrGLbcJLix',
         version_date: '2017-09-21',
         headers: {
             'X-Watson-Learning-Opt-Out': 'true'
